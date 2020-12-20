@@ -56,8 +56,7 @@ cp .example.env .env
 
 - Import the source, destination and transformer classes, as well as any utility functions you may like and use accordingly
 
-```
-#!python  
+```python  
 from judah.sources.export_site.date_based import DateBasedExportSiteSource
 # ...  
 ```
