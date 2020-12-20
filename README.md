@@ -44,15 +44,13 @@ Here are a few important links:
 
 - Install the package
 
-```
-#!bash
+```bash
 pip install judah
 ```
 
 - Copy the `.example.env` file to `.env` and make appropriate edits on it
 
-```
-#!bash
+```bash
 cp .example.env .env
 ```
 
@@ -109,16 +107,14 @@ Watch [this talk by Alexandra Noonan](https://www.youtube.com/watch?v=hIFeaeZ9_A
 ## How to set up Debian server for Selenium Chrome driver
 
 - Install an in-memory display server (xvfb)
-```
-#!bash
+```bash
 sudo apt-get update
 sudo apt-get install -y curl unzip xvfb libxi6 libgconf-2-4
 ```
 
 - Install Google Chrome
 
-```
-#!bash
+```bash
 sudo curl -sS -o - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo echo "deb [arch=amd64]  http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list
 sudo apt-get -y update
@@ -131,22 +127,19 @@ sudo apt-get -y install google-chrome-stable
 
 - Clone the repo and enter its root folder
 
-```
-#!bash
+```bash
 git clone https://github.com/sopherapps/judah.git && cd judah
 ```
 
 - Copy the `.example.env` file to `.env` and make appropriate edits on it
 
-```
-#!bash
+```bash
 cp .example.env .env
 ```
 
 - Create the test database: 'test_judah' in this case
 
-```
-#!bash
+```bash
 sudo -su postgres
 createdb test_judah
 ```
@@ -155,22 +148,19 @@ createdb test_judah
 
 - Create a virtual environment and activate it
 
-```
-#!bash
+```bash
 virtualenv -p /usr/bin/python3.6 env && source env/bin/activate
 ```
 
 - Install the dependencies
 
-```
-#!bash
+```bash
 pip install -r requirements.txt
 ```
 
 - Run the test command
 
-```
-#!bash
+```bash
 python -m unittest
 ```
 
