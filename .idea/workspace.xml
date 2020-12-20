@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb058078-650c-41d4-b994-58e8694a4ef7" name="Default Changelist" comment="" />
+    <list default="true" id="eb058078-650c-41d4-b994-58e8694a4ef7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,51 +64,46 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1825" height="327" key="GridCell.Tab.0.bottom" timestamp="1608481721934">
+    <state width="1825" height="327" key="GridCell.Tab.0.bottom" timestamp="1608482229600">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1825" height="327" key="GridCell.Tab.0.bottom/67.34.1853.1046@67.34.1853.1046" timestamp="1608481721934" />
-    <state width="1825" height="327" key="GridCell.Tab.0.center" timestamp="1608481721930">
+    <state width="1825" height="327" key="GridCell.Tab.0.bottom/67.34.1853.1046@67.34.1853.1046" timestamp="1608482229600" />
+    <state width="1825" height="327" key="GridCell.Tab.0.center" timestamp="1608482229599">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1825" height="327" key="GridCell.Tab.0.center/67.34.1853.1046@67.34.1853.1046" timestamp="1608481721930" />
-    <state width="1825" height="327" key="GridCell.Tab.0.left" timestamp="1608481721927">
+    <state width="1825" height="327" key="GridCell.Tab.0.center/67.34.1853.1046@67.34.1853.1046" timestamp="1608482229599" />
+    <state width="1825" height="327" key="GridCell.Tab.0.left" timestamp="1608482229598">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1825" height="327" key="GridCell.Tab.0.left/67.34.1853.1046@67.34.1853.1046" timestamp="1608481721927" />
-    <state width="1825" height="327" key="GridCell.Tab.0.right" timestamp="1608481721932">
+    <state width="1825" height="327" key="GridCell.Tab.0.left/67.34.1853.1046@67.34.1853.1046" timestamp="1608482229598" />
+    <state width="1825" height="327" key="GridCell.Tab.0.right" timestamp="1608482229599">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1825" height="327" key="GridCell.Tab.0.right/67.34.1853.1046@67.34.1853.1046" timestamp="1608481721932" />
-    <state width="1825" height="327" key="GridCell.Tab.1.bottom" timestamp="1608481713344">
+    <state width="1825" height="327" key="GridCell.Tab.0.right/67.34.1853.1046@67.34.1853.1046" timestamp="1608482229599" />
+    <state width="1825" height="327" key="GridCell.Tab.1.bottom" timestamp="1608482229604">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1825" height="327" key="GridCell.Tab.1.bottom/67.34.1853.1046@67.34.1853.1046" timestamp="1608481713344" />
-    <state width="1825" height="327" key="GridCell.Tab.1.center" timestamp="1608481713344">
+    <state width="1825" height="327" key="GridCell.Tab.1.bottom/67.34.1853.1046@67.34.1853.1046" timestamp="1608482229604" />
+    <state width="1825" height="327" key="GridCell.Tab.1.center" timestamp="1608482229602">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1825" height="327" key="GridCell.Tab.1.center/67.34.1853.1046@67.34.1853.1046" timestamp="1608481713344" />
-    <state width="1825" height="327" key="GridCell.Tab.1.left" timestamp="1608481713343">
+    <state width="1825" height="327" key="GridCell.Tab.1.center/67.34.1853.1046@67.34.1853.1046" timestamp="1608482229602" />
+    <state width="1825" height="327" key="GridCell.Tab.1.left" timestamp="1608482229602">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1825" height="327" key="GridCell.Tab.1.left/67.34.1853.1046@67.34.1853.1046" timestamp="1608481713343" />
-    <state width="1825" height="327" key="GridCell.Tab.1.right" timestamp="1608481713344">
+    <state width="1825" height="327" key="GridCell.Tab.1.left/67.34.1853.1046@67.34.1853.1046" timestamp="1608482229602" />
+    <state width="1825" height="327" key="GridCell.Tab.1.right" timestamp="1608482229603">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1825" height="327" key="GridCell.Tab.1.right/67.34.1853.1046@67.34.1853.1046" timestamp="1608481713344" />
-    <state x="563" y="219" width="1053" height="764" key="find.popup" timestamp="1608479797568">
+    <state width="1825" height="327" key="GridCell.Tab.1.right/67.34.1853.1046@67.34.1853.1046" timestamp="1608482229603" />
+    <state x="563" y="219" width="1053" height="764" key="find.popup" timestamp="1608482351730">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state x="563" y="219" width="1053" height="764" key="find.popup/67.34.1853.1046@67.34.1853.1046" timestamp="1608479797568" />
+    <state x="563" y="219" width="1053" height="764" key="find.popup/67.34.1853.1046@67.34.1853.1046" timestamp="1608482351730" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_utils/test_cron.py</url>
-          <line>224</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/judah/utils/cron.py</url>
           <line>82</line>
@@ -160,16 +158,6 @@
           <url>file://$PROJECT_DIR$/judah/utils/cron.py</url>
           <line>127</line>
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_utils/test_cron.py</url>
-          <line>212</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_utils/test_cron.py</url>
-          <line>214</line>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
