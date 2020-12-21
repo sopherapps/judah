@@ -66,7 +66,7 @@ from judah.sources.export_site.date_based import DateBasedExportSiteSource
 **The judah framework expects all applications that use it to follow a service-oriented-architecture as shown below.**
 
 - The app should have a `services` folder (or in python, what we call package) to contain the separate ETL services, 
-    each corresponding to a given third-party data source e.g. TenneT, rte
+    each corresponding to a given third-party data source e.g. CNN, BBC
 - Subsequently, each ETL service should be divided up into child services. Each child service should represent a unique data flow path e.g. REST-API-to-database,
     REST-API-to-cache, REST-API-to-queue, file-download-site-to-database, file-download-site-to-queue etc.
 - Each child service should be divided up into a number of microservices. 

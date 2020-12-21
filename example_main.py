@@ -11,9 +11,9 @@ from judah.utils.logging import setup_rotating_file_logger
 
 load_dotenv()
 
-# Assuming you have an rte ETL service, a rest_api_to_db child service and a number of microservices
+# Assuming you have an BBC ETL service, a rest_api_to_db child service and a number of microservices
 # each corresponding to a given dataset
-from app.services.rte.rest_api_to_db import RTE_REST_API_TO_DB_CONTROLLERS
+from app.services.rte.rest_api_to_db import BBC_REST_API_TO_DB_CONTROLLERS
 
 
 def get_graph(**options):
@@ -23,7 +23,7 @@ def get_graph(**options):
     '''
     graph = bonobo.Graph()
 
-    for controller in RTE_REST_API_TO_DB_CONTROLLERS:
+    for controller in BBC_REST_API_TO_DB_CONTROLLERS:
         graph.add_chain(
             controller.extract,
             controller.transform,
