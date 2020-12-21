@@ -19,8 +19,8 @@ from judah.utils.dates import (
     update_date,
     update_quarter_year_tuple,
     convert_date_to_quarter_year_tuple,
-    change_datetime_format
-)
+    change_datetime_format,
+    get_default_historical_start_datetime)
 
 
 class TestDatesUtilities(TestCase):
@@ -177,6 +177,29 @@ class TestDatesUtilities(TestCase):
         expected_quarter_and_month = (self.month_quarter_map[test_month], test_year,)
 
         self.assertEqual(get_default_historical_start_quarter_and_year(), expected_quarter_and_month)
+
+    @patch('os.getenv')
+    def test_get_default_historical_start_datetime(self, mock_os_getenv):
+        """
+        Should return the datetime object got from
+        HISTORICAL_STARTING_YEAR, HISTORICAL_STARTING_MONTH and HISTORICAL_STARTING_DAY
+        """
+        test_year = 1999
+        test_month = 6
+        test_day = 9
+
+        def handle_os_getenv(string: str, default: Any):
+            return_map = {
+                'HISTORICAL_STARTING_YEAR': f'{test_year}',
+                'HISTORICAL_STARTING_MONTH': f'{test_month}',
+                'HISTORICAL_STARTING_DAY': f'{test_day}'
+            }
+            return return_map[string]
+
+        mock_os_getenv.side_effect = handle_os_getenv
+        expected_datetime = datetime(year=test_year, month=test_month, day=test_day)
+
+        self.assertEqual(get_default_historical_start_datetime(), expected_datetime)
 
     def test_update_date(self):
         """
