@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="eb058078-650c-41d4-b994-58e8694a4ef7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +36,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_index_based.TestIndexBasedExportSiteSource.test_query_data_source">
+  <component name="RunManager" selected="Python tests.Unittests in test_index_based.py">
     <configuration name="Unittests for test_cron.TestCronType.test_get_next_utc_timestamp_with_day_of_week" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="judah" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,8 +81,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_index_based.TestIndexBasedExportSiteSource.test_query_data_source" />
         <item itemvalue="Python tests.Unittests in test_index_based.py" />
+        <item itemvalue="Python tests.Unittests for test_index_based.TestIndexBasedExportSiteSource.test_query_data_source" />
         <item itemvalue="Python tests.Unittests for test_cron.TestCronType.test_get_next_utc_timestamp_with_day_of_week" />
       </list>
     </recent_temporary>
@@ -99,22 +101,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1825" height="263" key="GridCell.Tab.0.bottom" timestamp="1608553273000">
+    <state x="625" y="343" width="727" height="425" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608556457527">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1825" height="263" key="GridCell.Tab.0.bottom/67.34.1853.1046@67.34.1853.1046" timestamp="1608553273000" />
-    <state width="1825" height="263" key="GridCell.Tab.0.center" timestamp="1608553272999">
+    <state x="625" y="343" width="727" height="425" key="#com.intellij.fileTypes.FileTypeChooser/67.34.1853.1046@67.34.1853.1046" timestamp="1608556457527" />
+    <state width="1825" height="263" key="GridCell.Tab.0.bottom" timestamp="1608553519749">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1825" height="263" key="GridCell.Tab.0.center/67.34.1853.1046@67.34.1853.1046" timestamp="1608553272999" />
-    <state width="1825" height="263" key="GridCell.Tab.0.left" timestamp="1608553272998">
+    <state width="1825" height="263" key="GridCell.Tab.0.bottom/67.34.1853.1046@67.34.1853.1046" timestamp="1608553519749" />
+    <state width="1825" height="263" key="GridCell.Tab.0.center" timestamp="1608553519744">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1825" height="263" key="GridCell.Tab.0.left/67.34.1853.1046@67.34.1853.1046" timestamp="1608553272998" />
-    <state width="1825" height="263" key="GridCell.Tab.0.right" timestamp="1608553272999">
+    <state width="1825" height="263" key="GridCell.Tab.0.center/67.34.1853.1046@67.34.1853.1046" timestamp="1608553519744" />
+    <state width="1825" height="263" key="GridCell.Tab.0.left" timestamp="1608553519743">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1825" height="263" key="GridCell.Tab.0.right/67.34.1853.1046@67.34.1853.1046" timestamp="1608553272999" />
+    <state width="1825" height="263" key="GridCell.Tab.0.left/67.34.1853.1046@67.34.1853.1046" timestamp="1608553519743" />
+    <state width="1825" height="263" key="GridCell.Tab.0.right" timestamp="1608553519745">
+      <screen x="67" y="34" width="1853" height="1046" />
+    </state>
+    <state width="1825" height="263" key="GridCell.Tab.0.right/67.34.1853.1046@67.34.1853.1046" timestamp="1608553519745" />
     <state width="1825" height="327" key="GridCell.Tab.1.bottom" timestamp="1608485823059">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>

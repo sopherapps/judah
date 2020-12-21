@@ -163,6 +163,12 @@ pip install -r requirements.txt
 python -m unittest
 ```
 
+- To view test coverage and then report the results
+
+```bash
+coverage run -m unittest && coverage report -m
+```
+
 ## How to Use (Example commands for Linux)
 - Ensure you have Google Chrome installed. For debian servers, see instructions under the 
 title "How to set up Debian server for Selenium Chrome driver"

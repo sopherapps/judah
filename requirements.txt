@@ -8,6 +8,7 @@ cffi==1.14.4
 chardet==3.0.4
 colorama==0.4.4
 configparser==5.0.0
+coverage==5.3.1
 crayons==0.4.0
 cryptography==3.3.1
 dataclasses==0.7

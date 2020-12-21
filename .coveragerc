@@ -1,0 +1,11 @@
+# .coveragerc to control coverage.py
+[run]
+omit =
+    test/*
+    build/*
+    dist/*
+    assets/*
+    example_main.py
+    setup.py
+    judah.egg-info
+    env/*
