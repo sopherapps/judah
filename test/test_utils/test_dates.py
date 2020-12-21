@@ -20,7 +20,7 @@ from judah.utils.dates import (
     update_quarter_year_tuple,
     convert_date_to_quarter_year_tuple,
     change_datetime_format,
-    get_default_historical_start_datetime)
+    get_default_historical_start_datetime, update_datetime)
 
 
 class TestDatesUtilities(TestCase):
@@ -223,6 +223,30 @@ class TestDatesUtilities(TestCase):
         self.assertEqual(decremented_date, last_day_of_february)
         self.assertEqual(incremented_date, test_date_after_31_days)
         self.assertEqual(incremented_and_decremented_date, test_date_after_23_days)
+
+    def test_update_datetime(self):
+        """
+        Should increment or decrement datetime accordingly
+        """
+        test_datetime = datetime(year=2020, month=3, day=8, hour=12, minute=0, second=8)
+        ms_to_increment_by = 31000
+        ms_to_decrement_by = 800000
+
+        test_datetime_after_31_seconds = datetime(year=2020, month=3, day=8, hour=12, minute=0, second=39)
+        eight_hundred_seconds_before_test_datetime = datetime(year=2020, month=3, day=8, hour=11, minute=46, second=48)
+        expected_datetime_after_increment_and_decrement = datetime(
+            year=2020, month=3, day=8, hour=11, minute=47, second=19)
+
+        incremented_datetime = update_datetime(
+            test_datetime, ms_to_decrement_by=0, ms_to_increment_by=ms_to_increment_by)
+        decremented_datetime = update_datetime(
+            test_datetime, ms_to_decrement_by=ms_to_decrement_by, ms_to_increment_by=0)
+        incremented_and_decremented_datetime = update_datetime(
+            test_datetime, ms_to_decrement_by=ms_to_decrement_by, ms_to_increment_by=ms_to_increment_by)
+
+        self.assertEqual(decremented_datetime, eight_hundred_seconds_before_test_datetime)
+        self.assertEqual(incremented_datetime, test_datetime_after_31_seconds)
+        self.assertEqual(incremented_and_decremented_datetime, expected_datetime_after_increment_and_decrement)
 
     def test_update_quarter_year_tuple(self):
         """
