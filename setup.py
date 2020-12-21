@@ -9,7 +9,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="judah",
-    version="0.0.3",
+    version="0.0.4",
     description="A simple service-oriented ETL framework for integrations",
     long_description=README,
     long_description_content_type="text/markdown",
