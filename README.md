@@ -2,6 +2,8 @@
 
 >  She (Leah) said, “This time I will praise the LORD”; so she named him Judah - Genesis 29: 35
 
+**This project is no longer being maintained.**
+
 judah is a service-oriented Python package to handle ETL (extract-transform-load) tasks easily.
 
 It follows a service-oriented architectural (SOA) design.
